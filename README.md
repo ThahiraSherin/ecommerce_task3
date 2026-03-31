@@ -44,18 +44,19 @@ Supports: user authentication, product listing, order placement, and order track
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/ThahiraSherin/ecommerce_task3>
 cd e-commerce
 
 2. Install dependencies:
 npm install
 
 3. Make sure XAMPP/MySQL is running.
+
 4. Configure the database connection in config/db.js:
     const db = mysql.createPool({
     host: "localhost",
     user: "root",
-    password: "", // your MySQL password
+    password: "", // MySQL password
     database: "ecommerce"
     });
 
